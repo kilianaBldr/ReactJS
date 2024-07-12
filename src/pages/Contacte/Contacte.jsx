@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Realisations.css"
+import './Contacte.css'
 import Nav from "../Header/Nav";
 
-const Realisations = () =>{
+const Contacte = () =>{
     return (
         <div>
             <Nav/>
-
         </div>
     )
 }
 
-export default Realisations;
+export default Contacte;
