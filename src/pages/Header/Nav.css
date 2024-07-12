@@ -1,0 +1,17 @@
+.nav-toggler {
+    border-color: #fff;
+    border-width: 0.2em;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+.nav-item a:hover {
+    border-bottom: 1px white solid;
+
+}
+
+Link a:active {
+color: red;
+
+}
