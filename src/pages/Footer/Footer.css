@@ -1,0 +1,17 @@
+Footer a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #EEE;
+}
+h4 {
+    font-weight: 600;
+}
+.copyright {
+    background-color: #1e1e1e;
+    color: #EEE;
+    text-align: center;
+}
