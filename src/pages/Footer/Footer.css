@@ -1,15 +1,19 @@
 Footer a{
+    padding-left: 0.5rem;
     text-decoration: none;
     color: black;
 }
 footer{
     padding-top: 2rem;
-    padding-bottom: 1rem;
     background-color: #EEE;
 }
 h4 {
     font-weight: 600;
 }
+.fa-brands {
+    padding-left: 0.7rem;
+}
+
 .copyright {
     background-color: #1e1e1e;
     color: #EEE;

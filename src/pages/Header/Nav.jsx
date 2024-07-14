@@ -8,7 +8,7 @@ const Nav = () => {
         <div class="container-fluid">
         <Link to="/" className="navbar-brand text-white font-weight-bold text-uppercase texte-light">Jonh Doe</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <i className="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars" style={{ color:"#EEE"}}></i>
           </button>
           <div className="collapse navbar-collapse" id="navbar">
                 <ul className="navbar-nav ms-auto">
