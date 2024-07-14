@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+  .presentation {
+    background-image: url(/public/images/hero-bg-tablette.jpg), linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3)) ;
+   } 
+
+
+}
+@media (min-width: 1200px) {
+    .presentation{
+        background-image: url(/public/images/hero-bg.jpg), linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+    }
+}
+
+
+
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/public/images/hero-bg-mobile.jpg),linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+
+}
+.presentation h1,.presentation h2, a{
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+ .propos {
+    box-shadow: 0px 1px 20px 0px #00000070;
+    margin-top: 2rem;
+    padding: 2rem;
+ }
+ img {
+    border-radius: 4px;
+    max-width: 100%;
+    max-height: 100%;
+ }
+ .titre {
+    border-bottom: 2px solid #0d6efd;
+ }
