@@ -1,6 +1,8 @@
 @media (min-width: 768px) {
   .presentation {
     background-image: url(/public/images/hero-bg-tablette.jpg), linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
    } 
 
 
@@ -8,6 +10,9 @@
 @media (min-width: 1200px) {
     .presentation{
         background-image: url(/public/images/hero-bg.jpg), linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100%;
     }
 }
 
@@ -50,5 +55,5 @@
     max-height: 100%;
  }
  .titre {
-    border-bottom: 2px solid #0d6efd;
+    border-bottom: 3px solid #0d6efd;
  }
