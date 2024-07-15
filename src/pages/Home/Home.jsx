@@ -13,10 +13,10 @@ const Home = () => {
                     <div id="text">
                         <h1>Bonjour, je suis John Doe</h1>
                         <h2>Développpeur Web full stack</h2>
-                        <button type="button" class="btn btn-primary"><Link to="/propos">En savoir plus</Link></button>
+                        <button type="button" class="btn btn-primary"><Link to="/aPropos" className="proposBtn">En savoir plus</Link></button>
                     </div>
                 </div>
-                <section className="container propos">
+                <section className="container propos" id="aPropos">
                     <div className="row">
                         <article className="col-md-6">
                             <h2 className="titre">A propos</h2>

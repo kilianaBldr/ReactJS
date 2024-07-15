@@ -5,6 +5,7 @@ import Services from "./pages/Service/Services";
 import Realisations from "./pages/Realisations/Realisations";
 import Blog from "./pages/Blog/Blog";
 import Contacte from "./pages/Contacte/Contacte";
+import Mention from "./pages/Mentions.L/Mention";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Route path="/Realisations" element={<Realisations/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path="/Contacte" element={<Contacte/>}/>
-
+        <Route path="/Mention" element={<Mention/>}/>
       </Routes>
 
       </div>

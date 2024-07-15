@@ -25,16 +25,16 @@ const Footer = () =>{
                     <article className="lien col-md-6 col-lg-3">
                         <h4>Liens utiles</h4>
                         <Link to="/"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Accueil</Link> <br />
-                        <Link to="/propos"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> A propos</Link> <br />
+                        <Link to="/aPropos"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> A propos</Link> <br />
                         <Link to="/Services"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Services</Link> <br />
                         <Link to="/Contacte"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Me contacter</Link> <br />
                         <Link to="/Mention"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Mentions légales</Link>
                     </article>
                     <article className="col-md-6 col-lg-3">
                         <h4>Mes dernières réalisations</h4>
-                        <Link to="/Realisation"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Fresh Food</Link> <br />
-                        <Link to="/Realisation"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Restaurant Akire</Link> <br />
-                        <Link to="/Realisation"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Espace bien-être</Link>
+                        <Link to="/Realisations"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Fresh Food</Link> <br />
+                        <Link to="/Realisations"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Restaurant Akire</Link> <br />
+                        <Link to="/Realisations"><i className="fa-solid fa-chevron-right"style={{color:"#0d6efd"}}></i> Espace bien-être</Link>
 
                     </article>
                     <article className="col-md-6 col-lg-3">
@@ -47,7 +47,7 @@ const Footer = () =>{
                 </div>
             </div>
             <div className="copyright">
-                &copy; Designed by <Link to="#" className="text-white">John Doe</Link>
+                &copy; Designed by <Link to="/" className="text-white">John Doe</Link>
             </div>
         </footer>
     )

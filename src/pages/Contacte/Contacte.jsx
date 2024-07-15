@@ -27,7 +27,7 @@ const Contacte = () =>{
                                 <label htmlFor="subject"></label>
                                 <input type="text" name="subject" id="subject" placeholder="Sujet" required/>
                                 <label htmlFor="message"></label>
-                                <input type="textarea"rows="4" name="message" id="message" placeholder="Votre message"  required/>
+                                <textarea type="textarea" rows="4" name="message" id="message" placeholder="Votre message"  required/>
                                 <div className="buttonForm text-center">
                                     <button type="submit" className="btn btn-primary mt-3">Envoyer</button>
                                 </div>
