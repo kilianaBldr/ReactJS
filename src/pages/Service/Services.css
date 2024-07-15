@@ -7,13 +7,19 @@
 .titre {
     text-align: center;
 }
+
 .card  {
     box-shadow: 0px 1px 6px 0px rgba(156, 153, 153, 0.622);
-    height: 20rem;
+    height: auto;
 }
+.card:hover i{
+    color:#0d6efd;
+}
+
 .card-title {
     padding-bottom: 1rem;
 }
+
 .langages {
     border-bottom: 2px dotted ;
     text-transform: uppercase;

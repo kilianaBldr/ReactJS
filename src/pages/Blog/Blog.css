@@ -5,3 +5,8 @@
 .titreBlog {
     border-bottom: 4px solid #0d6efd;
  }
+
+.coordonneText {
+    font-weight: 600;
+    margin-left: 2rem;
+}
