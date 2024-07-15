@@ -6,6 +6,7 @@ import Realisations from "./pages/Realisations/Realisations";
 import Blog from "./pages/Blog/Blog";
 import Contacte from "./pages/Contacte/Contacte";
 import Mention from "./pages/Mentions.L/Mention";
+import InfoGithub from "./pages/Github/InfoGithub";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Blog" element={<Blog/>}/>
         <Route path="/Contacte" element={<Contacte/>}/>
         <Route path="/Mention" element={<Mention/>}/>
+        <Route path="/InfoGithub" element={<InfoGithub/>}/>
       </Routes>
 
       </div>
