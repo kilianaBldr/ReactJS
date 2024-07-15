@@ -21,15 +21,15 @@ const Home = () => {
                         <article className="col-md-6">
                             <h2 className="titre">A propos</h2>
                             <p>
-                                Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong>au CEF. <br />
-                                Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>
+                                Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong className="fw-bold">intégrateur-développeur</strong> web au CEF. <br />
+                                Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. <br />
                                 Basé à Lyon, je suis en recherche d'un alternance au seins d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>. <br />
                                 J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.
                             </p>
                         </article>
                         <article className="col-md-6">
                             <div className="container">
-                                <img src="../images/john-doe-about.jpg" alt="Image d'un homme aux cheuveux court avec une barbe courte qui ce concentre" />
+                                <img src="../images/john-doe-about.jpg" alt="Image d'un homme aux cheuveux court avec une barbe courte qui ce concentre"/>
                                 <h2>Mes Compétences</h2>
                                 <div className="progressbar">
                                 <p>HTML5 90%</p>

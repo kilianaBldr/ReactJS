@@ -13,10 +13,10 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbar">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item mx-0 mx-lg-1"><Link to="/" className="nav-link active text-white py-3 px-0 px-lg-3 ">Accueil</Link></li>
-                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Services" className="nav-link text-white py-3 px-0 px-lg-3 ">Services</Link></li>
-                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Realisations" className="nav-link text-white py-3 px-0 px-lg-3 ">Réalisations</Link></li>
-                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Blog" className="nav-link text-white py-3 px-0 px-lg-3 ">Blog</Link></li>
-                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Contacte" className="nav-link text-white py-3 px-0 px-lg-3 ">Contact</Link></li>
+                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Services" className="nav-link active text-white py-3 px-0 px-lg-3 ">Services</Link></li>
+                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Realisations" className="nav-link active text-white py-3 px-0 px-lg-3 ">Réalisations</Link></li>
+                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Blog" className="nav-link active text-white py-3 px-0 px-lg-3 ">Blog</Link></li>
+                    <li className="nav-item mx-0 mx-lg-1"><Link to="/Contacte" className="nav-link active text-white py-3 px-0 px-lg-3 ">Contact</Link></li>
                 </ul>
           </div>
         </div>

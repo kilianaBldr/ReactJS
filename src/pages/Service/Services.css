@@ -1,0 +1,38 @@
+.image {
+    background-image: url("/public/images/banner-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+.titre {
+    text-align: center;
+}
+.card  {
+    box-shadow: 0px 1px 6px 0px rgba(156, 153, 153, 0.622);
+    height: 20rem;
+}
+.card-title {
+    padding-bottom: 1rem;
+}
+.langages {
+    border-bottom: 2px dotted ;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .image{
+        background-image: url("/public/images/banner-tablette.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 10vh;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .image{
+        background-image: url("/public/images/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 10vh;
+    }
+}

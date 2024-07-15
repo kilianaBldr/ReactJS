@@ -1,12 +1,13 @@
 .nav-toggler {
-    border-color: #fff;
+    border-color: white;
     border-width: 0.2em;
 }
 
 .nav-item {
+    color: #444;
     text-transform: uppercase;
 }
-.nav-item a:hover {
-    border-bottom: 1px white solid;
+.nav-item a:active {
+    background-color: black;
 
 }

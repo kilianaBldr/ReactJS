@@ -1,11 +1,16 @@
+.lien {
+    padding-bottom: 2rem;
+}
+
+footer{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    background-color: #EEE;
+}
 Footer a{
     padding-left: 0.5rem;
     text-decoration: none;
     color: black;
-}
-footer{
-    padding-top: 2rem;
-    background-color: #EEE;
 }
 h4 {
     font-weight: 600;
