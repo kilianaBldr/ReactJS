@@ -47,7 +47,7 @@ const Footer = () =>{
                 </div>
             </div>
             <div className="copyright">
-                &copy; Designed by <Link to="/" className="text-white">John Doe</Link>
+                &copy; Designed by <Link to="#" className="text-white">John Doe</Link>
             </div>
         </footer>
     )
