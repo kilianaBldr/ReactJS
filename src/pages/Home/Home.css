@@ -1,7 +1,6 @@
 @media (min-width: 768px) {
   .presentation {
     background-image: url(/public/images/hero-bg-tablette.jpg), linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3)) ;
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.3) inset;
     background-repeat: no-repeat;
     background-size: cover;
    } 
@@ -11,30 +10,26 @@
 @media (min-width: 1200px) {
     .presentation{
         background-image: url(/public/images/hero-bg.jpg), linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3));
-        box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.3) inset;
         background-repeat: no-repeat;
         background-size: cover;
+        
         min-height: 100%;
     }
 }
-
-
-
 
 .presentation {
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(/public/images/hero-bg-mobile.jpg),linear-gradient(to right,rgb(0,0,0,0.3),rgb(0,0,0,0.3)) ;
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.3) inset;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     text-align: center;
     height: 100vh;
 
 }
-.presentation h1,.presentation h2, a{
-    text-decoration: none;
+.presentation h1,.presentation h2{
     color: white;
 }
 
@@ -56,6 +51,10 @@
     border-radius: 4px;
     max-width: 100%;
     max-height: 100%;
+ }
+ .proposBtn {
+    color: white ;
+    text-decoration: none;
  }
  .titre {
     border-bottom: 4px solid #0d6efd;
