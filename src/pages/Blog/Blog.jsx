@@ -84,7 +84,7 @@ const Blog = () => {
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                            <img src="../images/blog/technos.png" class="card-img-top" alt="image qui réuni tout les langages et technologies disponible" />
+                                <img src="../images/blog/technos.png" class="card-img-top" alt="image qui réuni tout les langages et technologies disponible" />
                                 <div class="card-body">
                                     <h5 class="card-title">Apprendre à coder</h5>
                                     <p class="card-text">Some quick exemple text to build on the card title and make up the bulk of the card's content.</p>
@@ -95,9 +95,9 @@ const Blog = () => {
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    </main>
+                </div>
+            </main>
             <Footer />
         </div>
     )
