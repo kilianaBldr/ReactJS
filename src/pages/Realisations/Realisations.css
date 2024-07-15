@@ -1,3 +1,27 @@
+.imageServices {
+    background-image: url(/public/images/banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+}
+@media (min-width: 768px) {
+    .imageServices{
+        background-image: url(/public/images/banner-tablette.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 10vh;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .imageServices{
+        background-image: url(/public/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 10vh;
+    }
+}
+
 .titreRealisation {
     border-bottom: 4px solid #0d6efd;
  }

@@ -13,7 +13,7 @@ const Realisations = () =>{
                     <div className="imageServices"></div>
                     <div className="text-center titreRealisation  p-3">
                         <h1 className="text-uppercase">portfolio</h1>
-                        <p>Voici quelque-une de mes réalisations.</p>
+                        <p>Voici quelque-unes de mes réalisations.</p>
                     </div>
                     <div className="container text-center">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -22,7 +22,7 @@ const Realisations = () =>{
       <img src="../images/portfolio/fresh-food.jpg" class="card-img-top" alt="image d'un paniers avec plusieurs légumes de saison à l'intérieur"/>
       <div class="card-body">
         <h5 class="card-title">Fresh Food</h5>
-        <p class="card-text">Réalisation d'un site de commande en ligne.</p>
+        <p class="card-text textportfolio">Réalisation d'un site de commande en ligne.</p>
         <Link to="#" className="btn btn-outline-primary">Voir</Link>
       </div>
       <div class="card-footer">
@@ -35,7 +35,7 @@ const Realisations = () =>{
       <img src="../images/portfolio/restaurant-japonais.jpg" class="card-img-top" alt="image de plusieurs sushi"/>
       <div class="card-body">
         <h5 class="card-title">Restaurant Akira</h5>
-        <p class="card-text">Réalisation d'un site vitrine .</p>
+        <p class="card-text textportfolio">Réalisation d'un site vitrine .</p>
         <Link to="#" className="btn btn-outline-primary">Voir</Link>
       </div>
       <div class="card-footer">
@@ -48,7 +48,7 @@ const Realisations = () =>{
       <img src="../images/portfolio/espace-bien-etre.jpg" class="card-img-top" alt="image d'une tête de bouda espace bien être "/>
       <div class="card-body">
         <h5 class="card-title">Espace bien-être</h5>
-        <p class="card-text">Réalisation d'un site vitrine pour un praticien de bien-être</p>
+        <p class="card-text textportfolio">Réalisation d'un site vitrine pour un praticien de bien-être</p>
         <Link to="#" className="btn btn-outline-primary">Voir</Link>
       </div>
       <div class="card-footer">
